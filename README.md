@@ -1,6 +1,6 @@
 
 # SettingBundle  设置束
-===
+----
 
 ## Root.plist
 
@@ -15,14 +15,9 @@ Title|显示文本|键为PSTitleValueSpecifier，只读文本字符串。
 `Child Pane`|子窗格|键为PSChildPaneSpecifier，子首选项页。
 
 
-**
-Item0非常重要，Item0的类型一定是Group，对应的是一个分组表格类型，然后下面的Item都在这个分组表格中，直到遇到下一个Group。
-**
+**Item0非常重要，Item0的类型一定是Group，对应的是一个分组表格类型，然后下面的Item都在这个分组表格中，直到遇到下一个Group。**
 
-**
-基本设置`type`：可选类型 ,`Title`:将要显示的名字, `Identifier`:name_preference, `DefaultValue`：默认设置 。设置Identifier是为了通过ObjectForKey来查找数据。
-但是indentifier和type是必须添加的，并且identifier不添加是不会显示的
-**
+**基本设置`type`：可选类型 ,`Title`:将要显示的名字, `Identifier`:name_preference, `DefaultValue`：默认设置 。设置Identifier是为了通过ObjectForKey来查找数据。但是indentifier和type是必须添加的，并且identifier不添加是不会显示的**
 
 ##### Text Field
 
